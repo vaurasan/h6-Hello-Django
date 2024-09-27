@@ -285,6 +285,8 @@ Yritin asentaa "acl" "Access Control List" ohjelmaa käyttäjien hallintaa varte
 
 ![aclasennus](https://github.com/user-attachments/assets/f1db130a-a408-425e-97b0-b628766102c5)
 
+Jostain syystä djangotyyppi oli päässä muuttunut debiantyypiksi, *tarkkuutta mies*
+
 Nyt pystyin antamaan komennolla ``setfacl -R -m user:djangotyyppi:7 /home/santeri/publicwsgi`` djangotyypille oikeudet tuohon kansioon. ``-R`` viittaa tuohon kansioon ja kaikkiin sen alikansioihin ja tiedostoihin
 
 Nyt kokeilen vielä muokata kansioiden sisältöä djangotyypillä. Ensin vaihdetaan käyttäjää komennolla ``su djangotyyppi``
