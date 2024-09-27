@@ -218,19 +218,33 @@ Tiedostosijainnit ovat:
 
 ![sitepackansio](https://github.com/user-attachments/assets/b1115ade-97f3-41ed-9556-60acbb93940b)
 
-Käyn muokkaamassa sant.conf tiedostoa ``sudoedit /etc/apache2/sites-available/sant.conf``, nyt ohjeessa on niin pitkälti tietoa, jota tuonne tulee, että kopioin suoraan kaiken tiedostoon ja muokkaan omilla poluilla ja nimillä. Tässä tulee hyötykäyttöön äsken hakemani sijainnit
+Käyn muokkaamassa sant.conf tiedostoa ``sudoedit /etc/apache2/sites-available/sant.conf``, nyt ohjeessa on niin pitkälti tietoa, jota tuonne tulee, että kopioin suoraan kaiken tiedostoon ja muokkaan omilla poluilla ja nimillä. Tässä tulee hyötykäyttöön äsken hakemani sijainnit, en lähtenyt muuttamaan muuta kuin nuo sijainnit
 
-![erroritulee](https://github.com/user-attachments/assets/65c573d0-9253-4105-9efb-efcee7e6a35d)
+![sijainnitsianconffi](https://github.com/user-attachments/assets/31752957-1ea2-4305-98e2-22975b2d7319)
 
-Tämmöinen herja tulee, mutta katsotaan jos päästään eteenpäin. Kävin nimittäin muokkaamassa kahteen kertaan tuon, ja toisella kerralla vaihdoin ainoastaan nuo kansiopolut tuolta ylhäältä
+Jatketaan, asennan WSGI moduulin, jotta Apache tietää mitä WSGI komennot tarkoittavat. ``sudo apt-get -y install libapache2-mod-wsgi-py3``
 
+``/sbin/apache2ctl configtest`` antaa "Syntax OK":ta, joten kaikki hyvin. Potkaistaan demonia ``sudo systemctl restart apache2``, kokeillaan ``curl -s localhost|grep title``
 
+![successgrep](https://github.com/user-attachments/assets/c3c5dd1d-00c1-4ca0-a27b-1a0553e548da)
 
+On se helppoa, kun on hyvät ohjeet. Kokeillaan vielä ``curl -sI localhost|grep Server``
 
+![onseapache](https://github.com/user-attachments/assets/fedf2ba2-3b1b-4090-8a77-7de8d7019928)
 
+On se Apache, tässä vielä näkymä selaimella
 
+![selaimellatoimii](https://github.com/user-attachments/assets/d4d81243-8cb5-4e17-9dd5-a16b68597702)
 
+#### Otetaan DEBUG pois käytöstä
 
+Navigoidaan "/home/santeri/publicwsgi/sant/sant" ``micro settings.py``
+
+Sieltä muutetaan 
+- DEBUG = False
+- ALLOWED_HOSTS = ["localhost"]
+
+Jos menisi oikeaan tuotantoon, laittaisin esim. ["localhost", "testisivu.santerivauramo.com"]
 
 
 
