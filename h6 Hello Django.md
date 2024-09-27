@@ -47,6 +47,21 @@ Nyt ollaan virtuaaliympäristössä, emme halua käyttää "pip":iä ilman virtu
 
 ![whichpip](https://github.com/user-attachments/assets/4f44af41-382e-46f5-b050-df4b23999c8a)
 
+Luon ohjeen mukaan varmuudeksi "requirements.txt." tiedoston microlla, jotta ei vahingossakaan tule kirjoitusvirheitä kun asennetaan django pip:llä. Tiedoston sisään kirjoitan "django" ja tallennan tiedoston "ctrl+s" ja poistun "ctrl+q".
+
+![requirementstxt](https://github.com/user-attachments/assets/71d45db8-0f8f-446e-88fc-89aecd82f8a1)
+
+Varmuuden vuoksi kopioin requirements.txt tekstin ja katson vielä ``cat requirements.txt`` komennolla, että siellä varmasti lukee oikein "django"
+
+![catrequirements](https://github.com/user-attachments/assets/c652f279-bdc9-4267-b3e3-efec9da6b5e8)
+
+Tämä voi tuntua hätävarjelun liioittelulta, mutta en halua ottaa ylimääräisiä riskejä.
+
+Seuraavaksi asennetaan django pip:llä ``pip install -r requirements.txt``, hieman jännittävä toimenpide, mutta siitä selvittiin.
+
+![djangoinstalled](https://github.com/user-attachments/assets/fd1553ab-c6d5-4673-937b-04217fa23d98)
+
+Aloitan uuden Django projektin nimeltä "sant" ``django-admin startproject sant``
 
 
 
