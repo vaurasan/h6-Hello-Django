@@ -81,7 +81,7 @@ Kokeillaan uudestaan selaimella "http://127.0.0.1:8000/". Eikä toimi vieläkä�
 
 ![djangoversion](https://github.com/user-attachments/assets/92a4446a-936e-44fb-b830-3dadb67b8ebf)
 
-Sama migrate herja tuli nytkin. Nyt käynnistettyäni palvelimen pääsen selaimella "http://127.0.0.1:8000/", voi taas äiti olla ylpeä pojastaan
+Nyt käynnistettyäni palvelimen, pääsen selaimella "http://127.0.0.1:8000/", ja homma toimii, voi taas äiti olla ylpeä pojastaan
 
 ![djangoworks](https://github.com/user-attachments/assets/dfc6bd35-1a38-4eee-b540-1e52eb0d6d87)
 
