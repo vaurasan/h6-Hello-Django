@@ -139,6 +139,13 @@ Nyt pystytään lisäilemään asiakkaita, tosin niiden nimet ovat luokkaa "Cust
 
 ![asiakkaatcustobject](https://github.com/user-attachments/assets/4f416d17-69f2-4c69-9e19-addcc9565139)
 
+Mennään muokkaamaan models.py tiedostoa ``micro crm/models.py`` ja lisätään sinne pari riviä, jotka saavat asiakkaan nimen näkymään oikein
+
+![asiakasnimetmuok](https://github.com/user-attachments/assets/4e5cc0bb-4621-4dd9-ae0a-171e1f016fe7)
+
+Nyt kun yrittää käynnistää palvelinta, tulee herja
+
+![pyerrorii](https://github.com/user-attachments/assets/c7531b51-022c-4219-be21-d5546096462b)
 
 
 
