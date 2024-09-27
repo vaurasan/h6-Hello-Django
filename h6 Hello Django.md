@@ -125,7 +125,8 @@ Lisätään sovellus asennettuihin sovelluksiin ``micro sant/settings.py``
 
 ![crmlisatty](https://github.com/user-attachments/assets/59c60335-15c2-4d5f-a0f5-a4053802b470)
 
-
+Lisätään modeleja ``micro crm/models.py``. Tiedostossa oli valmiina "from django.db import models". Lisätään sinne vielä ``class Customer(models.Model):
+   name = models.CharField(max_length=300)``. Täten tietokantaan tulee "customer"-tietue "name" sarakkeella.
 
 
 
