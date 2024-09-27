@@ -280,8 +280,9 @@ Homma kaiketi siinä, jäi vielä mietityttämään kun ohjeessa puhuttiin täst
 
 ## Lähteet
 
+Django. Django admin. Luettavissa: https://docs.djangoproject.com/en/5.1/ref/django-admin/. Luettu 27.9.2024
 Karvinen, T. 2022. Deploy Django 4 - Production Install. Luettavissa: https://terokarvinen.com/2022/deploy-django/. Luettu 27.9.2024<br>
-Karvinen, T. 2022. Django 4 Instant Customer Database Tutorial. Luettavissa: https://terokarvinen.com/2022/django-instant-crm-tutorial/. Luettu 27.9.2024<br>
+Karvinen, T. 2022. Django 4 Instant Customer Database Tutorial. Luettavissa: https://terokarvinen.com/2022/django-instant-crm-tutorial/. Luettu 27.9.2024
 
 
 ---
