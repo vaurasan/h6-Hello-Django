@@ -246,6 +246,30 @@ Sieltä muutetaan
 
 Jos menisi oikeaan tuotantoon, laittaisin esim. ["localhost", "testisivu.santerivauramo.com"]
 
+![hosoiri](https://github.com/user-attachments/assets/16c9bae7-6e5c-453f-964d-334b0f0b985b)
+
+Näillä komennoilla ladattiin uudet asetukset, tämä muutos tarvinnee ``sudo systemctl restart apache2`` toimiakseen
+
+``http://localhost/admin`` selaimeen, pääsee kirjautumaan admin näkymään, mutta näyttää karulta. Aiemmassa vaiheessa luotu "santeri" käyttäjällä pääsee generoidulla salasanalla kirjautumaan. Sivu tosin näyttää tältä: 
+
+![djangoapachejuttu](https://github.com/user-attachments/assets/d8faa74e-29a5-4feb-be70-e375514a8972)
+
+#### Korjataan kauneusvirheet
+
+Mennään uudestaan ``micro settings.py`` ja lisätään sinne
+
+- import os
+- STATIC_ROOT = os.path.join(BASE_DIR, 'static/')
+
+Nyt ``cd ..`` ja ``./manage.py collectstatic``, promptiin "yes"
+
+![staticitmanage](https://github.com/user-attachments/assets/15a6819f-9380-47de-8e42-88ec6621e81e)
+
+Testataan miltä nyt näyttää "http://localhost/admin", kaunista
+
+![productstyle](https://github.com/user-attachments/assets/eda9af22-ad4e-4b17-8121-66b1547c42ba)
+
+
 
 
 ## Otsikko
