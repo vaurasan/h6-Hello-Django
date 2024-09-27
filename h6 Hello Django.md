@@ -117,8 +117,13 @@ Kokeilin mennä käyttäjienhallintaan muokkaamaan oikeuksia, otin alkuperäisel
 
 ![santerisstaffpois](https://github.com/user-attachments/assets/db72c9ad-0a5e-4637-b85e-6f3e2b31846b)
 
+#### Luodaan asiakastietokanta
 
+Luodaan "crm/" kansio CRM-sovellukselle ``./manage.py startapp crm``
 
+Lisätään sovellus asennettuihin sovelluksiin ``micro sant/settings.py``
+
+![crmlisatty](https://github.com/user-attachments/assets/59c60335-15c2-4d5f-a0f5-a4053802b470)
 
 
 
