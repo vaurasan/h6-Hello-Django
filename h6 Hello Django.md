@@ -182,6 +182,13 @@ Looking good. Seuraavaksi lisään uuden virtualhostin ``sudoedit /etc/apache2/s
 
 Laitan apachen hyväksymään sivun ``sudo a2ensite sant.conf``, "000-default.conf":n olen jo laittanut pois, mutta lähtötilanteessa ``sudo a2dissite 000-default.conf`` hoitaa sen
 
+Varmistetaan konfiguraation toimivuus ``/sbin/apache2ctl configtest``
+
+![configtest](https://github.com/user-attachments/assets/47ca6dc0-743e-4655-950b-dc4b8987ed44)
+
+AH00558 herja lienee normaalia, pääasia, että "Syntax OK" ilmestyy lopussa
+
+
 
 
 
