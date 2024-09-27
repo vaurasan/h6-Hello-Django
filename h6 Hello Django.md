@@ -180,13 +180,22 @@ Looking good. Seuraavaksi lisään uuden virtualhostin ``sudoedit /etc/apache2/s
 
 ![conffitiedot](https://github.com/user-attachments/assets/83b51b51-b5d9-48ec-b78b-cfd79c57f8a0)
 
-Laitan apachen hyväksymään sivun ``sudo a2ensite sant.conf``, "000-default.conf":n olen jo laittanut pois, mutta lähtötilanteessa ``sudo a2dissite 000-default.conf`` hoitaa sen
+Laitan apachen hyväksymään sivun ``sudo a2ensite sant.conf``, "000-default.conf":n olen jo laittanut pois, mutta lähtötilanteessa ``sudo a2dissite 000-default.conf`` hoitaa sen, laitetaan myös aiemmassa tehtävässä tekemäni "hattu.example.com.conf" ja "tama.juttu.com.conf" pois ``sudo a2dissite`` komennolla
 
 Varmistetaan konfiguraation toimivuus ``/sbin/apache2ctl configtest``
 
 ![configtest](https://github.com/user-attachments/assets/47ca6dc0-743e-4655-950b-dc4b8987ed44)
 
 AH00558 herja lienee normaalia, pääasia, että "Syntax OK" ilmestyy lopussa
+
+Potkaistaan demonia, eli käynnistetään apache uudelleen ``sudo systemctl restart apache2`` ja curlataan localhostia ``curl http://localhost/static/``, joten nähdään päästäänkö tietoihin käsiksi
+
+![curllocal](https://github.com/user-attachments/assets/7c34b968-4165-4132-b134-175fbec748b5)
+
+Mennään "~/publicwsgi" kansioon, jossa komennolla ``virtualenv -p python3 --system-site-packages env``. Hypätään virtualenviin ``source env/bin/activate``
+
+Kopioin a) kohdassa tekemäni sant/ kansion tuonne publicwsgi/ kansioon home/santeri/ kansiosta ``cp -R sant/ publicwsgi/``
+
 
 
 
