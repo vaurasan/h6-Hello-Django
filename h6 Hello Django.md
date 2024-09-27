@@ -275,6 +275,11 @@ Homma kaiketi siinä, jäi vielä mietityttämään kun ohjeessa puhuttiin täst
 
 ![ohjekayttaja](https://github.com/user-attachments/assets/d9ba86d5-07e4-4b14-8135-1c42a9127381)
 
+Kävin tämän tiimoilta vielä luomassa uuden käyttäjän ilman kummempia oikeuksia ``sudo adduser djangotyyppi``
+
+Jonka jälkeen muokkasin "sudoedit /etc/apache2/sites-available/sant.conf":sta "TUSER":n "djangotyyppi":ksi
+
+![djangosankari](https://github.com/user-attachments/assets/2395c6be-349e-44a3-b7a9-9a1eeab5db45)
 
 
 
