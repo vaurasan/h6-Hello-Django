@@ -281,10 +281,15 @@ Jonka jälkeen muokkasin "sudoedit /etc/apache2/sites-available/sant.conf":sta "
 
 ![djangosankari](https://github.com/user-attachments/assets/2395c6be-349e-44a3-b7a9-9a1eeab5db45)
 
+Yritin asentaa "acl" "Access Control List" ohjelmaa käyttäjien hallintaa varten [näillä ohjeilla](https://wiki.debian.org/Permissions), mutta se oli jo asennettu. Piti kuitenkin mountata filesystem acl optiolla, koska ohjelma antoi virheen
+
+![aclasennus](https://github.com/user-attachments/assets/f1db130a-a408-425e-97b0-b628766102c5)
+
 
 
 ## Lähteet
 
+Debian Wiki. Permissions. Luettavissa: https://wiki.debian.org/Permissions. Luettu 27.9.2024
 Django. django-admin and manage.py. Luettavissa: https://docs.djangoproject.com/en/5.1/ref/django-admin/. Luettu 27.9.2024<br>
 Karvinen, T. 2022. Deploy Django 4 - Production Install. Luettavissa: https://terokarvinen.com/2022/deploy-django/. Luettu 27.9.2024<br>
 Karvinen, T. 2022. Django 4 Instant Customer Database Tutorial. Luettavissa: https://terokarvinen.com/2022/django-instant-crm-tutorial/. Luettu 27.9.2024
