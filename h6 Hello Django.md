@@ -210,13 +210,19 @@ Tiedostosijainnit ovat:
 
 ![djangosant](https://github.com/user-attachments/assets/04b52122-5df4-42bf-8c95-40c859b40845)
 
-- Polku wsgi.py tiedostoon "home/santeri/publicwsgi/sant/sant"
+- Polku wsgi.py tiedostoon "/home/santeri/publicwsgi/sant/sant/wsgi.py"
 
 ![wsgisant](https://github.com/user-attachments/assets/cf6f096d-74ff-4131-96a9-cba5ec866aca)
 
 - Virtualenvin site-packages kansio "/home/santeri/publicwsgi/env/lib/python3.11/site-packages"
 
 ![sitepackansio](https://github.com/user-attachments/assets/b1115ade-97f3-41ed-9556-60acbb93940b)
+
+Käyn muokkaamassa sant.conf tiedostoa ``sudoedit /etc/apache2/sites-available/sant.conf``, nyt ohjeessa on niin pitkälti tietoa, jota tuonne tulee, että kopioin suoraan kaiken tiedostoon ja muokkaan omilla poluilla ja nimillä. Tässä tulee hyötykäyttöön äsken hakemani sijainnit
+
+![erroritulee](https://github.com/user-attachments/assets/65c573d0-9253-4105-9efb-efcee7e6a35d)
+
+Tämmöinen herja tulee, mutta katsotaan jos päästään eteenpäin. Kävin nimittäin muokkaamassa kahteen kertaan tuon, ja toisella kerralla vaihdoin ainoastaan nuo kansiopolut tuolta ylhäältä
 
 
 
