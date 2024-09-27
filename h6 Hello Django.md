@@ -194,12 +194,14 @@ Potkaistaan demonia, eli käynnistetään apache uudelleen ``sudo systemctl rest
 
 Mennään "~/publicwsgi" kansioon, jossa komennolla ``virtualenv -p python3 --system-site-packages env``. Hypätään virtualenviin ``source env/bin/activate``
 
-``which pip`` "/home/santeri/publicwsgi/env/bin/pip"
-
-
-
+``which pip`` "/home/santeri/publicwsgi/env/bin/pip". Tehdään taas requirements.txt ja sinne "django", jonka jälkeen ``pip install -r requirements.txt`` ja ``django-admin --version`` "5.1.1", ok
 
 Kopioin a) kohdassa tekemäni sant/ kansion tuonne publicwsgi/ kansioon home/santeri/ kansiosta ``cp -R sant/ publicwsgi/``
+
+``django-admin startproject sant``, koska sant/ kansio on jo olemassa, joten ei tarvinnut tätä vaihetta näemmä tehdä enää
+
+![santalready](https://github.com/user-attachments/assets/41fd45bc-b8c4-4d04-aab8-97141920bd49)
+
 
 
 
