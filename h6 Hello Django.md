@@ -160,7 +160,18 @@ Nyt näkyy asiakkaiden nimet oikein
 
 
 
-## b)
+## b) Tee Djangon tuotantotyyppinen asennus
+
+#### Voit halutessasi tehdä asennuksen omalle, paikalliselle virtuaalikoneelle. Sen ei tarvitse näkyä Internetiin.
+
+*klo 13:30*
+
+Tähän käytän pohjana [Tero Karvisen Deploy Django 4 - Production Install](https://terokarvinen.com/2022/deploy-django/) ohjeita
+
+Teen tämän paikallisella virtuaalikoneellani. Apache2 ja micro on jo asennettu, joten menen suoraan kohtaan "Create some web content as a user"
+
+Luon kansioita tätä varten ``mkdir -p publicwsgi/sant/static/``, sekä .html tiedoston ``echo "Onpas mukava nähdä teitä täällä tänään."|tee publicwsgi/sant/static/index.html``
+
 
 
 
