@@ -101,6 +101,24 @@ Jätin käyttäjänimikentän tyhjäksi, joten oletuksena käyttäjä on tässä
 
 ![sisallaadminina](https://github.com/user-attachments/assets/6a367551-e19e-4e77-b90d-341ab1e30fcc)
 
+Loin uuden käyttäjän "sant" kohdasta "users - add"
+
+![santuus](https://github.com/user-attachments/assets/3e72ca96-e34a-4851-b24b-c61df5083e23)
+
+Annoin käyttäjälle "staff", sekä "superuser"-statuksen
+
+![superstaff](https://github.com/user-attachments/assets/a6710da3-e12b-48af-b5d6-b9926e6d7671)
+
+Kirjauduin ulos, ja takaisin sisään, tällä kertaa "sant" nimisenä käyttäjänä
+
+![santsissal](https://github.com/user-attachments/assets/952d81d2-7008-49f4-b8b2-e0b2c9b9ff21)
+
+Kokeilin mennä käyttäjienhallintaan muokkaamaan oikeuksia, otin alkuperäiseltä "santeri":lta "staff"-oikeudet pois, todettakoon, että superkäyttäjän oikeudet toimivat tällä uudella käyttäjällä
+
+![santerisstaffpois](https://github.com/user-attachments/assets/db72c9ad-0a5e-4637-b85e-6f3e2b31846b)
+
+
+
 
 
 
