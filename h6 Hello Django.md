@@ -151,8 +151,11 @@ Kopioin suoraan Karvisen ohjeesta tuon koko koodin, jolla sain taas palvelimen k
 
 ![koodikopied](https://github.com/user-attachments/assets/0bea835d-df6e-4fab-a006-15b1e4aef09c)
 
+Nyt näkyy asiakkaiden nimet oikein
 
+![asiakkaidennimetoikein](https://github.com/user-attachments/assets/d3f90c61-a727-424e-b708-71982b7bbb5a)
 
+*klo 13:08, aikaa kului 1h 38min*
 
 
 
