@@ -269,6 +269,8 @@ Testataan miltä nyt näyttää "http://localhost/admin", kaunista
 
 ![productstyle](https://github.com/user-attachments/assets/eda9af22-ad4e-4b17-8121-66b1547c42ba)
 
+*klo 15:05*
+
 
 
 
