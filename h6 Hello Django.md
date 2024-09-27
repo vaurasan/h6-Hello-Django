@@ -194,6 +194,11 @@ Potkaistaan demonia, eli käynnistetään apache uudelleen ``sudo systemctl rest
 
 Mennään "~/publicwsgi" kansioon, jossa komennolla ``virtualenv -p python3 --system-site-packages env``. Hypätään virtualenviin ``source env/bin/activate``
 
+``which pip`` "/home/santeri/publicwsgi/env/bin/pip"
+
+
+
+
 Kopioin a) kohdassa tekemäni sant/ kansion tuonne publicwsgi/ kansioon home/santeri/ kansiosta ``cp -R sant/ publicwsgi/``
 
 
