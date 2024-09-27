@@ -147,9 +147,11 @@ Nyt kun yrittää käynnistää palvelinta, tulee herja
 
 ![pyerrorii](https://github.com/user-attachments/assets/c7531b51-022c-4219-be21-d5546096462b)
 
-Kysyin merlin.in sanakoneelta apua, jolla sain tuon toimimaan.
+Kopioin suoraan Karvisen ohjeesta tuon koko koodin, jolla sain taas palvelimen käyntiin
 
-![merliiniapuuna](https://github.com/user-attachments/assets/e584fc31-6543-461b-9ffb-2ce3758cf217)
+![koodikopied](https://github.com/user-attachments/assets/0bea835d-df6e-4fab-a006-15b1e4aef09c)
+
+
 
 
 
@@ -167,7 +169,7 @@ Kysyin merlin.in sanakoneelta apua, jolla sain tuon toimimaan.
 
 Karvinen, T. 2022. Deploy Django 4 - Production Install. Luettavissa: https://terokarvinen.com/2022/deploy-django/. Luettu 27.9.2024<br>
 Karvinen, T. 2022. Django 4 Instant Customer Database Tutorial. Luettavissa: https://terokarvinen.com/2022/django-instant-crm-tutorial/. Luettu 27.9.2024<br>
-Merlin.ai. Tekoäly. Luettavissa: https://www.getmerlin.in/. Luettu 27.9.2024
+
 
 ---
 
