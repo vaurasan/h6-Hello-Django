@@ -202,6 +202,25 @@ Kopioin a) kohdassa tekemäni sant/ kansion tuonne publicwsgi/ kansioon home/san
 
 ![santalready](https://github.com/user-attachments/assets/41fd45bc-b8c4-4d04-aab8-97141920bd49)
 
+Seuraavaksi yhdistetään Python Apacheen käyttäen mod_wsgi:tä. Ohjeessa kerrotaan, että kaiken toimiakseen, täytyy tietää kolme absoluuttista polkua, joten ne kannattaa ottaa ylös tekstitiedostoon, josta niitä voi kopioida tarvittaessa. 
+
+Tiedostosijainnit ovat: 
+
+- Django-projektin pääkansio, joka sisältää manage.py tiedoston "/home/santeri/publicwsgi/sant"
+
+![djangosant](https://github.com/user-attachments/assets/04b52122-5df4-42bf-8c95-40c859b40845)
+
+- Polku wsgi.py tiedostoon "home/santeri/publicwsgi/sant/sant"
+
+![wsgisant](https://github.com/user-attachments/assets/cf6f096d-74ff-4131-96a9-cba5ec866aca)
+
+- Virtualenvin site-packages kansio "/home/santeri/publicwsgi/env/lib/python3.11/site-packages"
+
+![sitepackansio](https://github.com/user-attachments/assets/b1115ade-97f3-41ed-9556-60acbb93940b)
+
+
+
+
 
 
 
