@@ -25,7 +25,29 @@ UpCloud<br>
 Debian 12 GNU/Linux (bookworm)<br>
 1 Prosessoriydin - 1GB RAM-muistia - 10GB tallennustilaa
 
-## a)
+## a) Tee yksinkertainen esimerkkiohjelma Djangolla
+
+*27.9.2024 klo 11:30*
+
+Tähän käytän tietenkin apuna Karvisen [Django 4 Instant Customer Database Tutorial](https://terokarvinen.com/2022/django-instant-crm-tutorial/):ia.
+
+Kirjauduin palvelimelleni ja aluksi päivitetään pakettilista ``sudo apt-get update``. 
+
+Asennetaan virtualenv virtuaaliympäristö ``sudo apt-get -y install virtualenv``. 
+
+Luodaan uusi kansio virtualenville, joka sisältää viimeisimmät paketit ``virtualenv --system-site-packages -p python3 env/``.
+
+![Venvpaketit](https://github.com/user-attachments/assets/e335692f-fce8-4ace-a9d4-bf573d87c790)
+
+Otetaan virtuaaliympäristö käyttöön ``source env/bin/activate``
+
+![venvkayttoon](https://github.com/user-attachments/assets/dec76d2f-728a-465a-b3e8-edb49ebc6c80)
+
+Nyt ollaan virtuaaliympäristössä, emme halua käyttää "pip":iä ilman virtualenviä, eikä sitä saa käyttää "sudo":lla. En halua antaa palvelinta muiden käyttöön, joten noudatan ohjetta tarkasti. Teen kyselyn, jotta varmistutaan, että olemme asentamassa virtuaaliympäristöön.
+
+![whichpip](https://github.com/user-attachments/assets/4f44af41-382e-46f5-b050-df4b23999c8a)
+
+
 
 
 
@@ -40,6 +62,8 @@ Debian 12 GNU/Linux (bookworm)<br>
 
 ## Lähteet
 
+Karvinen, T. 2022. Deploy Django 4 - Production Install. Luettavissa: https://terokarvinen.com/2022/deploy-django/. Luettu 27.9.2024<br>
+Karvinen, T. 2022. Django 4 Instant Customer Database Tutorial. Luettavissa: https://terokarvinen.com/2022/django-instant-crm-tutorial/. Luettu 27.9.2024<br>
 
 ---
 
