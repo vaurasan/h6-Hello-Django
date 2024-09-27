@@ -172,6 +172,16 @@ Teen tämän paikallisella virtuaalikoneellani. Apache2 ja micro on jo asennettu
 
 Luon kansioita tätä varten ``mkdir -p publicwsgi/sant/static/``, sekä .html tiedoston ``echo "Onpas mukava nähdä teitä täällä tänään."|tee publicwsgi/sant/static/index.html``
 
+Käyn varmistamassa, että kyseiset kansiot ja tiedosto tuli luotua oikein
+
+![onpasmukava](https://github.com/user-attachments/assets/fdb6241d-cbd9-4f86-8b70-b08080c13aab)
+
+Looking good. Seuraavaksi lisään uuden virtualhostin ``sudoedit /etc/apache2/sites-available/sant.conf`` seuraavilla tiedoilla
+
+![conffitiedot](https://github.com/user-attachments/assets/83b51b51-b5d9-48ec-b78b-cfd79c57f8a0)
+
+Laitan apachen hyväksymään sivun ``sudo a2ensite sant.conf``, "000-default.conf":n olen jo laittanut pois, mutta lähtötilanteessa ``sudo a2dissite 000-default.conf`` hoitaa sen
+
 
 
 
