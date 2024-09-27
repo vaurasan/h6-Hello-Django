@@ -63,6 +63,13 @@ Seuraavaksi asennetaan django pip:llä ``pip install -r requirements.txt``, hiem
 
 Aloitan uuden Django projektin nimeltä "sant" ``django-admin startproject sant``
 
+Seuraavaksi kokeillaan laittaa Django palvelin toimimaan ohjeen mukaan, menen "sant" kansioon, siellä ``.manage.py runserver``
+
+![managerunserver](https://github.com/user-attachments/assets/6a48a957-5590-458a-925e-53254b300ecd)
+
+Nyt on tuotantopalvelin päällä. Tätä palvelinta ei kannata päästää internetiin.
+
+
 
 
 
