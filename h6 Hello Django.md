@@ -89,7 +89,20 @@ Hauskana yksityiskohtana huomaan, nyt kun palvelin on päällä, palvelin näytt
 
 ![kayntitiedotreaali](https://github.com/user-attachments/assets/de1811d5-71c5-4925-8513-45b5fe780edd)
 
-Seuraavaksi lisätään admin url:lle "http://127.0.0.1:8000/admin/"
+Seuraavaksi lisätään admin url:lle "http://127.0.0.1:8000/admin/" suoraan Karvisen ohjeilla, kätevä tuo salasananluontityökalu
+
+![historymakeadmin](https://github.com/user-attachments/assets/c39fcfa7-2972-47c3-ac5c-0d9c387a71e7)
+
+Nyt pääsen admin-kirjautumisikkunaan osoitteella "http://127.0.0.1:8000/admin/"
+
+![adminlogin](https://github.com/user-attachments/assets/a7db05f8-1299-4bbc-89a1-68e54cda02bf)
+
+Jätin käyttäjänimikentän tyhjäksi, joten oletuksena käyttäjä on tässä tapauksessa "santeri", olen sisällä
+
+![sisallaadminina](https://github.com/user-attachments/assets/6a367551-e19e-4e77-b90d-341ab1e30fcc)
+
+
+
 
 
 
