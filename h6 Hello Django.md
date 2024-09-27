@@ -128,7 +128,16 @@ Lisätään sovellus asennettuihin sovelluksiin ``micro sant/settings.py``
 Lisätään modeleja ``micro crm/models.py``. Tiedostossa oli valmiina "from django.db import models". Lisätään sinne vielä ``class Customer(models.Model):
    name = models.CharField(max_length=300)``. Täten tietokantaan tulee "customer"-tietue "name" sarakkeella.
 
+![crmcustodata](https://github.com/user-attachments/assets/6501c770-656d-4748-b5ab-01936d0ad724)
 
+Nyt ajetaan samat ``./manage.py makemigrations`` ja ``./manage.py migrate``
+
+Rekisteröidään tietokanta admin/ kansioon ``micro crm/admin.py``, ja sille lisätään tiedot ``from . import models
+admin.site.register(models.Customer)``
+
+Nyt pystytään lisäilemään asiakkaita, tosin niiden nimet ovat luokkaa "Customer object (1)"
+
+![asiakkaatcustobject](https://github.com/user-attachments/assets/4f416d17-69f2-4c69-9e19-addcc9565139)
 
 
 
