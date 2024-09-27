@@ -89,7 +89,7 @@ Hauskana yksityiskohtana huomaan, nyt kun palvelin on päällä, palvelin näytt
 
 ![kayntitiedotreaali](https://github.com/user-attachments/assets/de1811d5-71c5-4925-8513-45b5fe780edd)
 
-
+Seuraavaksi lisätään admin url:lle "http://127.0.0.1:8000/admin/"
 
 
 
