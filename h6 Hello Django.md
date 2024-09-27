@@ -285,7 +285,20 @@ Yritin asentaa "acl" "Access Control List" ohjelmaa käyttäjien hallintaa varte
 
 ![aclasennus](https://github.com/user-attachments/assets/f1db130a-a408-425e-97b0-b628766102c5)
 
-Nyt pystyin antamaan komennolla ``setfacl -R -m user:djangotyyppi:7 /home/santeri/publicwsgi`` djangotyypille oikeudet tuohon kansioon. ``-R`` viittaa tuohon kansioon ja kaikkiin sen alikansioihin ja tiedostoihin 
+Nyt pystyin antamaan komennolla ``setfacl -R -m user:djangotyyppi:7 /home/santeri/publicwsgi`` djangotyypille oikeudet tuohon kansioon. ``-R`` viittaa tuohon kansioon ja kaikkiin sen alikansioihin ja tiedostoihin
+
+Nyt kokeilen vielä muokata kansioiden sisältöä djangotyypillä. Ensin vaihdetaan käyttäjää komennolla ``su djangotyyppi``
+
+![djangosekoilu](https://github.com/user-attachments/assets/65b8d3aa-27e3-4f66-8f99-54259f4d2f83)
+
+Nyt mennään takaisin santerina ja käydään katsomassa onko tallennettu tiedosto todella tuolla ``su santeri``
+
+![siellon](https://github.com/user-attachments/assets/cd9bc6b1-7d13-47f7-8d3c-5ee156f22509)
+
+Siellä se on
+
+![sielse](https://github.com/user-attachments/assets/ba480324-2fc5-46c7-9936-6b8c272ccb5c)
+
 
 
 
