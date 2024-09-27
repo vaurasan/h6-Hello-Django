@@ -67,7 +67,32 @@ Seuraavaksi kokeillaan laittaa Django palvelin toimimaan ohjeen mukaan, menen "s
 
 ![managerunserver](https://github.com/user-attachments/assets/6a48a957-5590-458a-925e-53254b300ecd)
 
-Nyt on tuotantopalvelin päällä. Tätä palvelinta ei kannata päästää internetiin.
+Nyt on tuotantopalvelin päällä. Tätä palvelinta ei kannata päästää internetiin. Kokeillaan mennä selaimella osoitteeseen "http://127.0.0.1:8000/".
+
+Ei toimi, tuo ``.manage.py runserver`` antoi punaisella tekstillä herjaa "You have 18 unapplied migration(s). Your project may not work properly until you apply the migrations for app(s): admin, auth, contenttypes, sessions."              ja korjaukseksi komento ``python manage.py migrate``, joten kokeilen sitä.
+
+![migrateisson](https://github.com/user-attachments/assets/17921ee0-3214-4359-a75c-3b49401f9cf5)
+
+Tämän jälkeen uudestaan ``.manage.py runserver`` ja nyt ei tule virheilmoituksia.
+
+![djangoserveron](https://github.com/user-attachments/assets/31cb9475-3821-4542-98f6-84648e9884ba)
+
+Kokeillaan uudestaan selaimella "http://127.0.0.1:8000/". Eikä toimi vieläkään, tietenkin tämä johtuu siitä, että olen virtuaalipalvelimella, jossa ei ole muuta kuin CLI käyttöliittymä. Pitää siis tehdä kaikki uudestaan paikallisesti. ``exit`` komennolla takaisin "taulu" virtuaalikoneelle. Teen samat asiat kuin aiemmin.
+
+![djangoversion](https://github.com/user-attachments/assets/92a4446a-936e-44fb-b830-3dadb67b8ebf)
+
+Sama migrate herja tuli nytkin. Nyt käynnistettyäni palvelimen pääsen selaimella "http://127.0.0.1:8000/", voi taas äiti olla ylpeä pojastaan
+
+![djangoworks](https://github.com/user-attachments/assets/dfc6bd35-1a38-4eee-b540-1e52eb0d6d87)
+
+Hauskana yksityiskohtana huomaan, nyt kun palvelin on päällä, palvelin näyttää käyntini tuolla sivulla suoraan reaaliajassa ja herjaa, että favicon.ico:a ei voitu toimittaa, eli se pieni kuvake mikä näkyy selaimen välilehdellä
+
+![kayntitiedotreaali](https://github.com/user-attachments/assets/de1811d5-71c5-4925-8513-45b5fe780edd)
+
+
+
+
+
 
 
 
