@@ -271,10 +271,11 @@ Testataan miltä nyt näyttää "http://localhost/admin", kaunista
 
 *klo 15:05*
 
+Homma kaiketi siinä, jäi vielä mietityttämään kun ohjeessa puhuttiin tästä
+
+![ohjekayttaja](https://github.com/user-attachments/assets/d9ba86d5-07e4-4b14-8135-1c42a9127381)
 
 
-
-## Otsikko
 
 
 ## Lähteet
