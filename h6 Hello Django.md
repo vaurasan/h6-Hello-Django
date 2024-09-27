@@ -271,11 +271,13 @@ Testataan miltä nyt näyttää "http://localhost/admin", kaunista
 
 *klo 15:05*
 
-Homma kaiketi siinä, jäi vielä mietityttämään kun ohjeessa puhuttiin tästä
+#### Homma kaiketi siinä, jäi vielä mietityttämään kun ohjeessa puhuttiin tästä
 
 ![ohjekayttaja](https://github.com/user-attachments/assets/d9ba86d5-07e4-4b14-8135-1c42a9127381)
 
-Kävin tämän tiimoilta vielä luomassa uuden käyttäjän ilman kummempia oikeuksia ``sudo adduser djangotyyppi``
+Eli WSGI moduulin ajamiseen ei kannata käyttää sudo käyttäjää, jotein täytyy tehdä uusi käyttäjä tätä varten
+
+Kävin tämän tiimoilta luomassa uuden käyttäjän ilman kummempia oikeuksia ``sudo adduser djangotyyppi``
 
 Jonka jälkeen muokkasin "sudoedit /etc/apache2/sites-available/sant.conf":sta "TUSER":n "djangotyyppi":ksi
 
