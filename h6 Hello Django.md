@@ -303,13 +303,6 @@ Siellä se on
 
 ![sielse](https://github.com/user-attachments/assets/ba480324-2fc5-46c7-9936-6b8c272ccb5c)
 
-## c) Vapaaehtoinen
-#### Ohjelmoi Djangoon sivu, joka näkyy "Django Admin" liittymän ulkopuolella
-
-Yritin tehdä tätä [W3Schools](https://www.w3schools.com/django/index.php):n ja [Phind tekoälyn](https://www.phind.com/) avulla, mutta sain apacheni solmuun, täytyy katsoa tätä vielä jos ehtii
-
-![solmussaerror500](https://github.com/user-attachments/assets/a5d87340-e4d6-45df-a48e-f07cb434f0a5)
-
 ## Lähteet
 
 Debian Wiki. Permissions. Luettavissa: https://wiki.debian.org/Permissions. Luettu 27.9.2024
